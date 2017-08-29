@@ -161,7 +161,6 @@ const createScrollWatchers = () =>{
 		const watcher = scrollmonitor.create(scrollElemToWatch);
 
 		watcher.enterViewport(()=>{
-			// anime.remove(DOM.shapeEl);
 				anime({
 					targets: DOM.shapeEl,
 					duration: shapes[pos].animation.points.duration,
