@@ -1,11 +1,23 @@
-$text-color: #000000;
+$grid-gutter-width: 24px;
+
+$text-color: rgba(0,0,0,0.87);
 $background-color: #ffffff;
 $hero-background-color: #4527A0;
 $background-color-2: #282faf;
 $background-color-3: #202692;
 $link-color: #03b9f1;
 $link-hover-color: #fff;
+$white-text: #ffffff;
+
+$header-font-family: 'Abril Fatface', Helvetica, sans-serif;
+$body-font-family: 'Open Sans', Helvetica, sans-serif;
 
 
-$body-font: 'Raleway', Helvetica, sans-serif;
-$header-font: 'Abril Fatface', Helvetica, sans-serif;
+
+$header1-font: 4rem/5rem $header-font-family;
+$header2-font: 3rem/4rem $header-font-family;
+$paragraph-font: 1.125rem/1.75rem $body-font-family;
+$button-font: 1rem/1.5rem $body-font-family;
+
+
+// font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;
