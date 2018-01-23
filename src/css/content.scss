@@ -1,13 +1,15 @@
-@import "config";
+
 
 .hero-section{
 	height: 100vh;
-	background-color: $hero-background-color;
 	.container{
 		height: 100vh;
 		.row{
 			height: 100vh;
 		}
+	}
+	&.main-hero{
+		background-color: $hero-background-color;
 	}
 }
 
@@ -70,6 +72,7 @@
 	background-color: #f2f2f2;
 	height: 440px;
 }
+
 
 .project-case-study-button{
 	a{

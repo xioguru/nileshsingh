@@ -1,6 +1,8 @@
 @import "config";
 @import "morph";
+@import 'work';
 @import 'content';
+
 *,
 *::after,
 *::before {
@@ -13,7 +15,6 @@
 	// @include make-col($size, $columns: $grid-columns);
 	// @grid-gutter-width:24px;
 	@grid-gutter-width()
-
 }
 
 body {
@@ -37,8 +38,28 @@ h2{
 	font: $header2-font;
 }
 
+h3{
+	font: $header3-font;
+	font-weight: 600;
+	margin-top: 3rem;
+}
+
+h4{
+	font: $header4-font;
+	font-weight: 600;
+	margin-top: 2rem;
+}
+
+.secondary-text{
+	color: $secondary-text-color;
+}
+
 .white-text{
 	color: $white-text;
+}
+
+.gray-background{
+	background-color: $gray-background-color;
 }
 
 header{
@@ -63,9 +84,22 @@ header{
 				line-height: 1.5rem;
 				a{
 					padding: .5rem 1rem;
-					color: #FFFFFF;
+					color: $text-color;
+					&:hover{
+						color: $text-color;
+					}
+
 				}
 
+			}
+		}
+	}
+
+	&.main-header{
+		a{
+			color: $white-text;
+			&:hover{
+				color: $white-text;
 			}
 		}
 	}
