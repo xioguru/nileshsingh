@@ -11,6 +11,12 @@
 	&.main-hero{
 		background-color: $hero-background-color;
 	}
+	.scroll-direction{
+		text-align: center;
+		position: absolute;
+		bottom: .5rem;
+		color: $white-text;
+	}
 }
 
 .contact-button{

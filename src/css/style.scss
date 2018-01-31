@@ -11,10 +11,7 @@
 }
 
 .container{
-	width: 1224px;
-	// @include make-col($size, $columns: $grid-columns);
-	// @grid-gutter-width:24px;
-	@grid-gutter-width()
+	max-width: 1224px;
 }
 
 body {
@@ -60,6 +57,12 @@ h4{
 
 .gray-background{
 	background-color: $gray-background-color;
+}
+
+.browser{
+	img{
+		width: 100%;
+	}
 }
 
 header{

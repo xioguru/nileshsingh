@@ -1,10 +1,27 @@
 .child-hero-section{
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 12rem);
     .container{
-      height: calc(100vh - 4rem);
+      height: calc(100vh - 12rem);
       .row{
-        height: calc(100vh - 4rem);
+        height: calc(100vh - 12rem);
       }
     }
 
+
+}
+
+.lengo-browser{
+  background: $gray-background-color;
+}
+
+.browser{
+  margin: 4rem 0;
+}
+
+.approach{
+  background: $gray-background-color;
+  img{
+    margin: 0 auto;
+    display: block;
+  }
 }
