@@ -55,6 +55,10 @@ h4{
 	color: $white-text;
 }
 
+.secondary-white-text{
+	color: $secondary-white-text;
+}
+
 .gray-background{
 	background-color: $gray-background-color;
 }
@@ -65,12 +69,17 @@ h4{
 	}
 }
 
+section{
+	padding: 64px 0;
+}
+
 header{
 	background-color: transparent;
 	left: 0;
 	position: absolute;
 	right: 0;
 	width: 100%;
+	height: 56px;
 	z-index: 10;
 	nav{
 		display: inline-block;

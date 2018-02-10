@@ -1,4 +1,5 @@
 .child-hero-section{
+    padding: 0;
     height: calc(100vh - 12rem);
     .container{
       height: calc(100vh - 12rem);
@@ -6,7 +7,15 @@
         height: calc(100vh - 12rem);
       }
     }
-
+    &.lengo-section{
+      background: linear-gradient(-50deg, #27AAE1, #00A79D);
+    }
+    &.kamana-section{
+      background: linear-gradient(-50deg, #379EF0, #20235C);
+    }
+    &.three-section{
+      background: linear-gradient(-50deg, #3B7BD6, #EF5350);
+    }
 
 }
 
