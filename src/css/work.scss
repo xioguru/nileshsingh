@@ -5,6 +5,9 @@
       height: calc(100vh - 12rem);
       .row{
         height: calc(100vh - 12rem);
+        .image{
+          text-align: center;
+        }
       }
     }
     &.lengo-section{
@@ -16,6 +19,7 @@
     &.three-section{
       background: linear-gradient(-50deg, #3B7BD6, #EF5350);
     }
+
 
 }
 
