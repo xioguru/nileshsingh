@@ -120,3 +120,31 @@ header{
 		}
 	}
 }
+
+
+
+.footer{
+	background-color: $background-color-dark-gray;
+	ul{
+		margin: 0px;
+		li{
+			display: inline-block;
+			&:after{
+				margin: 8px;
+				color: $white-text;
+				content: '\2022';
+			}
+			&:last-child{
+				&:after{
+					content: '';
+				}
+			}
+			a{
+				color: $white-text;
+				&:hover{
+					color: $white-text;
+				}
+			}
+		}
+	}
+}
