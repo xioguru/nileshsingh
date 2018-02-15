@@ -23,12 +23,24 @@
 
 }
 
+
+
 .lengo-browser{
   background: $gray-background-color;
 }
 
+.process-image{
+  margin: 4rem 0;
+  img {
+    width: 100%;
+  }
+}
+
 .browser{
   margin: 4rem 0;
+  img {
+    width: 100%;
+  }
 }
 
 .approach{
