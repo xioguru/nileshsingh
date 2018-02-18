@@ -227,7 +227,8 @@ section {
 
 figcaption {
   text-align: center;
-  font-size: .8em; }
+  font-size: .8em;
+  font-style: italic; }
 
 header {
   display: flex;
