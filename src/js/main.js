@@ -16,6 +16,11 @@ var morphing= ()=>{
  });
 }
 
+var scrollToWork = () =>{
+  var workSection=document.getElementById("work-section");
+  window.animate()
+}
+
 
 
 
@@ -25,7 +30,9 @@ var morphing= ()=>{
 
 
 var init = () =>{
-
+  var workButton=document.getElementById("work-button");
+  workButton.addEventListener('click',scrollToWork);
+// document.getElementById("myBtn").addEventListener("click", displayDate);
 	morphing();
 }
 
